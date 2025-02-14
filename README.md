@@ -4,6 +4,7 @@
 
 ## Getting Started
 
+<img width="398" alt="image" src="https://github.com/user-attachments/assets/fb05673b-c2c3-462f-8c67-0356af2fd34d" />
 
 
 1. HighlightText使用方式：
