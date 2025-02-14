@@ -1,18 +1,22 @@
 # highlight_text
 
-A new Flutter plugin project.
+一个在flutter上的文本组件，支持以下划线的方式高亮显示内容，支持自定义下划线的高度和偏移量，支持高亮部分换行显示。
 
 ## Getting Started
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/developing-packages/),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
 
-For help getting started with Flutter development, view the
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
 
-The plugin project was generated without specifying the `--platforms` flag, no platforms are currently supported.
-To add platforms, run `flutter create -t plugin --platforms <platforms> .` in this directory.
-You can also find a detailed instruction on how to add platforms in the `pubspec.yaml` at https://flutter.dev/docs/development/packages-and-plugins/developing-packages#plugin-platforms.
+1. HighlightText使用方式：
+
+```dart
+
+HighlightText(
+  text:
+      '本节将主要介绍一下移动开发技术的进化历程，了解一下 Flutter 技术出现的背景。笔者认为，了解一门新技术出现的背景是非常重要的，因为只有了解之前是什么样的，才能理解为什么会是现在这样。',
+  style: TextStyle(color: Colors.black, fontSize: 24),
+  highlightText: 'Flutter',
+  highlightColor: Colors.yellow,
+  highlightHeight: 10,
+),
+
+```
